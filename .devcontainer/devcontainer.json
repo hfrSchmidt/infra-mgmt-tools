@@ -3,7 +3,7 @@
 {
 	"name": "Infrastructure management tools development",
 
-	"dockerComposeFile": ["../docker-compose.yml", "docker-compose.extend.yml"],
+	"dockerComposeFile": ["../docker/docker-compose.testing.yml", "docker-compose.extend.yml"],
 
 	"service": "cli-app",
 	"workspaceFolder": "/workspace",
