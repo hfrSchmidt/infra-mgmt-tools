@@ -1,3 +1,2 @@
-
 def a_test():
-  print ("Just testing...")
+    print("Just testing...")
