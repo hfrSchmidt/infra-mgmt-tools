@@ -26,7 +26,7 @@ updates:
 
   - package-ecosystem: "docker"
     # Look for a `Dockerfile` in the directory
-    directory: "/.devcontainer/"
+    directory: "/docker/"
     schedule:
       interval: "daily"
     commit-message:
