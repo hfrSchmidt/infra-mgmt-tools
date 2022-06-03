@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  cli-app:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.dev
+    command: pytest
+    volumes:
+      - .:/app/
