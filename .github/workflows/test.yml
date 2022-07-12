@@ -31,7 +31,7 @@ jobs:
         run:  docker-compose -f ./docker/docker-compose.testing.yml build
 
       - name: Run pytest
-        run:  docker-compose -f ./docker/docker-compose.testing.yml run --rm cli-app
+        run:  docker-compose -f ./docker/docker-compose.testing.yml run --rm test-cli-app
 
       - name: Tear down the Stack
         run:  docker-compose -f ./docker/docker-compose.testing.yml down
