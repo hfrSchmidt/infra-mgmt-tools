@@ -3,10 +3,10 @@
 {
 	"name": "Infrastructure management tools development",
 
-	"dockerComposeFile": ["../docker/docker-compose.testing.yml", "docker-compose.extend.yml"],
+	"dockerComposeFile": ["docker-compose.extend.yml"],
 
 	"service": "cli-app",
-	"workspaceFolder": "/workspace",
+	"workspaceFolder": "/app",
 	"shutdownAction": "stopCompose",
 
 	// Set *default* container specific settings.json values on container create.
