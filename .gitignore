@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# integration tests
+# as long as they are not executable via CI/CD
+tests/integration
